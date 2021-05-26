@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class main {
+    //create all variables
+    //dealer class
+    //player class
+    //deck class
+    //game class
+    private String name;
+    private Card[] hand;
+    private double moneyLeft;
+    private boolean busted;
+    private int numberOfCards;
+    private int totalCardValue;
+
+
+    public static void main(String[] args) {
+        System.out.println("Welcome to our game, Pick 1 for Blackjack, Pick 2 for Poker, Pick 3 for War. Have Fun! ");
+        Scanner ask = new Scanner(System.in);
+        System.out.println("Enter game number");
+        int gamenumber = ask.nextInt();
+        System.out.println("Game chosen is: " + gamenumber);
+
+        //while (game)
+
+        //While loop in each method
+    }
+
+
+    public void blackjack() {
+        Scanner ask = new Scanner(System.in);
+        System.out.println("Enter game number");
+        int gameNumber = ask.nextInt();
+        System.out.println("Game chosen is: " + gameNumber);
+
+
+
+        //add blackjack method
+
+
+    }
+
+}
